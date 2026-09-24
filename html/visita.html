@@ -1,0 +1,77 @@
+﻿<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Rai Soares">
+        <title>Planeje sua observação</title>
+    </head>
+    <body>
+        <header>
+            <h1>Planeje sua observação</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="planetas.html">Planetas em números</a></li>
+                <li><a href="visita.html">Planeje sua visita</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Organize uma noite de observação</h2>
+                <article>
+                    <p>Use este formulário para planejar sua sessão.</p>
+                    <form>
+                        <fieldset>
+                            <legend>Informações da sessão</legend>
+                            <label for="nome">Seu nome:</label>
+                            <input id="nome" name="nome" type="text" placeholder="fulanin..." required>
+                            <br>
+
+                            <label for="data">Data:</label>
+                            <input id="data" name="data" type="date" required>
+                            <br>
+
+                            <label for="local">Local:</label>
+                            <input id="local" name="local" list="locais" placeholder="Escolha ou digite um local" required>
+                            <datalist id="locais">
+                                <option value="Quintal ou varanda">
+                                <option value="Parque da cidade">
+                                <option value="Planetário">
+                            </datalist>
+                            <br>
+
+                            <label for="interesse">Interesse (1 a 5):</label>
+                            <input id="interesse" name="interesse" type="range" min="1" max="5" value="3">
+                            <br>
+
+                            <label for="anotacao">Anotação ou imagem:</label>
+                            <input id="anotacao" name="anotacao" type="file">
+                            <br>
+                            
+                            <input type="submit" value="Preparar sessão">
+                        </fieldset>
+                    </form>
+                </article>
+                <article>
+                    <h2>Antes de sair</h2>
+                    <ul>
+                        <li>Confira a previsão do tempo.</li>
+                        <li>Escolha um local seguro e leve agasalho.</li>
+                    </ul>
+                    <details>
+                        <summary>Não tenho telescópio. O que faço?</summary>
+                        <p>Comece a olho nu e use um mapa celeste. Nunca olhe diretamente para o Sol.</p>
+                    </details>
+                </article>
+            </section>
+            <aside>
+                <p>Veja também as <a href="planetas.html">medidas dos planetas</a>.</p>
+            </aside>
+        </main>
+        <footer>
+            <p>Formulário demonstrativo.</p>
+        </footer>
+    </body>
+</html>
