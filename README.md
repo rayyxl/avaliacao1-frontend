@@ -8,7 +8,7 @@ Projeto educativo em HTML sobre o Sistema Solar. O site apresenta informações 
 - **Planetas em números** (`html/planetas.html`): tabela com diâmetros aproximados da Terra, de Marte e de Júpiter, além de elementos interativos de leitura.
 - **Planeje sua observação** (`html/visita.html`): formulário demonstrativo e uma lista breve de preparação para observar o céu.
 
-As páginas compartilham um menu de navegação para facilitar a exploração do conteúdo. O vídeo MP4 está incorporado na página inicial com controles de reprodução e uma legenda.
+As páginas compartilham um menu de navegação para facilitar a exploração do conteúdo.
 
 ## Estrutura do projeto
 
