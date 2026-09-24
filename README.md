@@ -4,11 +4,11 @@ Projeto educativo em HTML sobre o Sistema Solar. O site apresenta informações 
 
 ## Páginas
 
-- **Início** (`html/index.html`): introdução ao Sistema Solar, ilustração local, conceito sobre HTML e áudio.
+- **Início** (`html/index.html`): introdução ao Sistema Solar, ilustração local, conceito sobre HTML, áudio e vídeo local.
 - **Planetas em números** (`html/planetas.html`): tabela com diâmetros aproximados da Terra, de Marte e de Júpiter, além de elementos interativos de leitura.
 - **Planeje sua observação** (`html/visita.html`): formulário demonstrativo e uma lista breve de preparação para observar o céu.
 
-As páginas compartilham um menu de navegação para facilitar a exploração do conteúdo.
+As páginas compartilham um menu de navegação para facilitar a exploração do conteúdo. O vídeo MP4 está incorporado na página inicial com controles de reprodução e uma legenda.
 
 ## Estrutura do projeto
 
@@ -24,6 +24,7 @@ avaliacao1-frontend/
 ├── img/
 │   └── sistema-solar.jpg
 └── video/
+    └── sistema-solar.mp4
 ```
 
 ## Autoria
